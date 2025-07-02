@@ -45,7 +45,7 @@ local function Save()
     writefile("V.G Hub//" .. Name, game:service "HttpService":JSONEncode(Settings))
 end
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/test"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Lunar-Eclipse111/A-ScriptSource/refs/heads/main/libs/vg.lua"))()
 local Window = Library:CreateWindow(Config, game:GetService("CoreGui"))
 
 local Tab1 = Window:CreateTab("Assassin")
