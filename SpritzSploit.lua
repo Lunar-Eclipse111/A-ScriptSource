@@ -193,7 +193,7 @@ end
 return old_index(a, b);
 end
 
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Lunar-Eclipse111/A-ScriptSource/refs/heads/main/libs/Orion')))()
 local Window = OrionLib:MakeWindow({Name = "SpritzSploit [ASSASSIN] Dev Access", HidePremium = false, SaveConfig = true, ConfigFolder = "🥸", IntroEnabled = false})
 local CombatTab = Window:MakeTab({
     Name = "Combat",
